@@ -16,18 +16,32 @@
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  boxSizing: 'border-box';
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #121214;
+  color: #fff;
+}
+
+body, input, textarea, button: {
+  fontFamily: 'Roboto';
+  fontWeight: 400;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  
+  .background-product {
+    background: linear-gradient(180deg, #1ea483 0%, #7565d4 100%);
+  }
+
+  .carrossel-container {
+    max-width: calc(100vw - ((100vw - 1180px) / 2));
   }
 }

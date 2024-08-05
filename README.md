@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 04 Ignite Shop - Rocketseat
 
-## Getting Started
+## Tabela do Conteudos
 
-First, run the development server:
+  * [Introdução](#introdução)
+  <!-- * [Exposição do projeto](#exposição-do-projeto) -->
+  * [Destaques de códigos](#destaques-de-código)
+    * [Consumo de API](#consumo-de-api)
+    * [Performance](#performance)
+  * [Curiosidade](#curiosidade)
+  * [Tecnologias](#tecnologias)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Introdução
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Esse é o primeiro projeto utilizando o framework NextJS apresentado na formação ReactJS do curso da Rocketseat, passando por conceitos de SPA, server-side rendering (SSR) e static-site generation (SSG).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<!-- # Exposição do projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  <img src="./src/assets/dt-money-layout-descktop.gif"> -->
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Curiosidade
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- O next trabalha com 'File-System Routing', que significa "Roteamento baseado em arquvos físicos".
+- No next todas as imagens da aplicação são otimizadas automaticamente.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tecnologias
 
-## Deploy on Vercel
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>TypeScript</li>
+  <li>React</li>
+  <li>Nextjs</li>
+</ul>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Outros
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<ul>
+  <li>TailwindCSS</li>
+  <li>Keen-Slider</li>
+</ul>
