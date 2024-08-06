@@ -78,8 +78,6 @@ export default function Product() {
 
     return (
         <>
-    
-
             {isLoading
                 ? (
                     <div className="flex max-w-[1180px] m-auto"><span className="text-4xl">Carregando...</span></div>

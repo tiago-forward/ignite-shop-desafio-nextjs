@@ -1,5 +1,4 @@
 import { stripe } from "@/lib/stripe";
-import { redirect } from "next/navigation";
 
 import { NextRequest, NextResponse } from "next/server";
 
