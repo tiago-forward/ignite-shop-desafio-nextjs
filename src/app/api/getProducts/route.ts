@@ -10,6 +10,7 @@ export interface ProductProps {
     price: string
     description?: string
     defaultPriceId?: string
+    uniqueKey: string
 }
 
 export async function GET() {
